@@ -1,0 +1,24 @@
+// ============================================
+// Border Tokens 
+// Provides:
+// 1) SCSS Variables (numeric scale)
+// 2) Semantic Aliases (sm..2xl)
+// ============================================
+
+// --------------------------------------------
+// 1) Core Numeric Scale (px values)
+// --------------------------------------------
+$border-0:    0px;    // no border
+$border-1:    1px;    // thin
+$border-2:    2px;    // medium
+$border-3:    3px;    // thick
+$border-4:    4px;    // extra thick
+
+// --------------------------------------------
+// 2) Semantic Aliases (readability first)
+// --------------------------------------------
+$border-none: $border-0;   // no border 
+$border-sm:   $border-1;   // thin
+$border-md:   $border-2;   // medium
+$border-lg:   $border-3;   // thick
+$border-xl:   $border-4;   // extra thick

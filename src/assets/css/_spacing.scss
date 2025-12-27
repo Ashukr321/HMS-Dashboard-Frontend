@@ -1,0 +1,46 @@
+
+// ============================================
+// Spacing Tokens (HRMS Portal)
+// Provides:
+// 1) SCSS Variables
+// 2) Semantic Aliases
+
+// ============================================
+
+
+// --------------------------------------------
+// 1) Core Numeric Scale (rem values)
+// --------------------------------------------
+$space-0:    0rem;       // 0px
+$space-1:    0.25rem;    // 4px
+$space-2:    0.5rem;     // 8px
+$space-3:    0.75rem;    // 12px
+$space-4:    1rem;       // 16px
+$space-5:    1.25rem;    // 20px
+$space-6:    1.5rem;     // 24px
+$space-7:    1.75rem;    // 28px
+$space-8:    2rem;       // 32px
+$space-9:    2.5rem;     // 40px
+$space-10:   3rem;       // 48px
+$space-12:   3.5rem;     // 56px
+$space-14:   4rem;       // 64px
+$space-16:   5rem;       // 80px
+$space-20:   6rem;       // 96px
+$space-24:   8rem;       // 128px
+
+
+// --------------------------------------------
+// 2) Semantic Aliases (T-shirt sizes)
+// --------------------------------------------
+$space-xxs:  $space-1;   // 4px
+$space-xs:   $space-2;   // 8px
+$space-sm:   $space-3;   // 12px
+$space-md:   $space-4;   // 16px
+$space-lg:   $space-6;   // 24px
+$space-xl:   $space-8;   // 32px
+$space-2xl:  $space-10;  // 48px
+$space-3xl:  $space-12;  // 56px
+$space-4xl:  $space-14;  // 64px
+$space-5xl:  $space-16;  // 80px
+$space-6xl:  $space-20;  // 96px
+$space-7xl:  $space-24;  // 128px

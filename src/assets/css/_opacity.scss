@@ -1,0 +1,35 @@
+// ============================================
+// Opacity Tokens 
+// Provides:
+// 1) SCSS Variables (percent-based stops)
+// 2) Semantic Aliases (clear naming)
+// ============================================
+
+// -------------------------------------------
+// 1) Core Numeric Scale (unitless decimals)
+// Designer stops: 8%, 16%, 24%, 32%, 40%, 48%
+// --------------------------------------------
+$opacity-8:   0.08;
+$opacity-16:  0.16;
+$opacity-24:  0.24;
+$opacity-32:  0.32;
+$opacity-40:  0.40;
+$opacity-48:  0.48;
+
+// Optional common extremes (useful defaults)
+$opacity-0:   0;     // fully transparent
+$opacity-100: 1;     // fully opaque
+
+// --------------------------------------------
+// 2) Semantic Aliases (readability first)
+// --------------------------------------------
+// "dim" scale commonly used for disabled/overlay/ui states
+$opacity-dim-1: $opacity-8;   // very light dim
+$opacity-dim-2: $opacity-16;
+$opacity-dim-3: $opacity-24;
+$opacity-dim-4: $opacity-32;
+$opacity-dim-5: $opacity-40;
+$opacity-dim-6: $opacity-48;
+
+$opacity-transparent: $opacity-0;
+$opacity-solid:       $opacity-100;
