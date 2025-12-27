@@ -122,6 +122,58 @@ const user= [
     "role": "PHARMACIST",
     "status": "ACTIVE",
     "createdAt": "2024-01-21T09:00:00Z"
+  },
+
+  // NEW ROLE: NURSE
+  {
+    "id": "NUR-001",
+    "email": "mary.dsouza@hospital.com",
+    "password": "$mock$password123",
+    "role": "NURSE",
+    "status": "ACTIVE",
+    "createdAt": "2024-04-01T08:00:00Z"
+  },
+  {
+    "id": "NUR-002",
+    "email": "lakshmi.nair@hospital.com",
+    "password": "$mock$password123",
+    "role": "NURSE",
+    "status": "ACTIVE",
+    "createdAt": "2024-04-02T08:00:00Z"
+  },
+  {
+    "id": "NUR-003",
+    "email": "robert.william@hospital.com",
+    "password": "$mock$password123",
+    "role": "NURSE",
+    "status": "ACTIVE",
+    "createdAt": "2024-04-03T08:00:00Z"
+  },
+
+  // NEW ROLE: LAB_TECHNICIAN
+  {
+    "id": "TECH-001",
+    "email": "arjun.verma@hospital.com",
+    "password": "$mock$password123",
+    "role": "LAB_TECHNICIAN",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-10T10:00:00Z"
+  },
+  {
+    "id": "TECH-002",
+    "email": "sarah.khan@hospital.com",
+    "password": "$mock$password123",
+    "role": "LAB_TECHNICIAN",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-11T10:00:00Z"
+  },
+  {
+    "id": "TECH-003",
+    "email": "deepak.sharma@hospital.com",
+    "password": "$mock$password123",
+    "role": "LAB_TECHNICIAN",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-12T10:00:00Z"
   }
 ]
 
