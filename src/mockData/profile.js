@@ -227,6 +227,98 @@ const profile = [
       "assignedCounter": "Pharmacy-2"
     },
     "createdAt": "2024-01-21T09:00:00Z"
+  },
+  {
+    "_id": "PROF-NUR-001",
+    "userId": "NUR-001",
+    "role": "NURSE",
+    "name": "Sister Mary D'Souza",
+    "phone": "9822114455",
+    "address": { "city": "Delhi", "state": "Delhi" },
+    "details": {
+      "qualification": "B.Sc Nursing",
+      "assignedWard": "WARD-03", // ICU
+      "shift": "Morning",
+      "experience": 5
+    },
+    "createdAt": "2024-04-01T08:00:00Z"
+  },
+  {
+    "_id": "PROF-NUR-002",
+    "userId": "NUR-002",
+    "role": "NURSE",
+    "name": "Sister Lakshmi Nair",
+    "phone": "9822116677",
+    "address": { "city": "Chennai", "state": "Tamil Nadu" },
+    "details": {
+      "qualification": "General Nursing",
+      "assignedWard": "WARD-05", // Pediatrics
+      "shift": "Night",
+      "experience": 8
+    },
+    "createdAt": "2024-04-02T08:00:00Z"
+  },
+  {
+    "_id": "PROF-NUR-003",
+    "userId": "NUR-003",
+    "role": "NURSE",
+    "name": "Robert William",
+    "phone": "9822118899",
+    "address": { "city": "Mumbai", "state": "Maharashtra" },
+    "details": {
+      "qualification": "B.Sc Nursing",
+      "assignedWard": "WARD-01", // General Ward
+      "shift": "Evening",
+      "experience": 3
+    },
+    "createdAt": "2024-04-03T08:00:00Z"
+  },
+
+  // --- NEW ROLE: LAB_TECHNICIAN PROFILES ---
+  {
+    "_id": "PROF-TECH-001",
+    "userId": "TECH-001",
+    "role": "LAB_TECHNICIAN",
+    "name": "Arjun Verma",
+    "phone": "9876500111",
+    "address": { "city": "Delhi", "state": "Delhi" },
+    "details": {
+      "specialization": "Hematology",
+      "licenseNo": "LAB-LIC-5050",
+      "labRoom": "Room 101, Basement",
+      "shift": "Morning"
+    },
+    "createdAt": "2024-05-10T10:00:00Z"
+  },
+  {
+    "_id": "PROF-TECH-002",
+    "userId": "TECH-002",
+    "role": "LAB_TECHNICIAN",
+    "name": "Sarah Khan",
+    "phone": "9876500222",
+    "address": { "city": "Lucknow", "state": "UP" },
+    "details": {
+      "specialization": "Radiology",
+      "licenseNo": "RAD-LIC-9090",
+      "labRoom": "X-Ray Room B",
+      "shift": "Evening"
+    },
+    "createdAt": "2024-05-11T10:00:00Z"
+  },
+  {
+    "_id": "PROF-TECH-003",
+    "userId": "TECH-003",
+    "role": "LAB_TECHNICIAN",
+    "name": "Deepak Sharma",
+    "phone": "9876500333",
+    "address": { "city": "Indore", "state": "MP" },
+    "details": {
+      "specialization": "Biochemistry",
+      "licenseNo": "BIO-LIC-4040",
+      "labRoom": "Room 105, Basement",
+      "shift": "Night"
+    },
+    "createdAt": "2024-05-12T10:00:00Z"
   }
 ]
 
