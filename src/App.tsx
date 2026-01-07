@@ -1,11 +1,10 @@
-import classes from './styles.module.scss'
-import { useState } from 'react'
+
 
 function App() {
 
   return (
     <>
-     <h1 className={classes.heading}>hello</h1>
+     <h1>HMS DASHBOARD!</h1>
     </>
   )
 }

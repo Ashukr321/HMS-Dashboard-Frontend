@@ -21,8 +21,7 @@
    "*.{ts,tsx}": [
     "eslint --fix",
     "prettier --write"
-  ],
-    "*.{js,css,md}": "prettier --write"
+   ]
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
